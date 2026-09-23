@@ -1,0 +1,117 @@
+# =========================
+# Go
+# =========================
+
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage files
+*.out
+coverage.out
+coverage.html
+
+# Go build/cache directories
+/bin/
+/build/
+/dist/
+.tmp/
+.cache/
+
+# Go workspace
+go.work
+go.work.sum
+
+
+# =========================
+# IDE / Editors
+# =========================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / GoLand
+.idea/
+*.iml
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+
+
+# =========================
+# OS files
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.secret
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+tmp/
+temp/
+
+
+# =========================
+# Git Transfer generated files
+# =========================
+
+# Transfer packages created by the CLI
+*.gittransfer
+*.gtransfer
+
+# Local transfer/output directory
+transfers/
+output/
+
+
+# =========================
+# Local development
+# =========================
+
+.local/
+.local.*
